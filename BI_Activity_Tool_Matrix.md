@@ -12,12 +12,12 @@ Please refer to the official websites of each tool for the most accurate and up-
 | Data Cleaning         | Good (dataframes API for cleaning)        | Excellent (libraries like pandas)     | Good (SQL queries can perform tasks)  | 
 | Data Transformation   | Excellent (scalable transformations)      | Excellent (pandas, NumPy)             | Excellent (complex queries)           |
 | Data Analysis         | Excellent (large-scale analysis)          | Excellent (statistical libraries)     | Good (basic analytics)               | 
-| Data Visualization    | Limited (basic plotting capabilities)     | Excellent (matplotlib, seaborn, etc.) | Limited (not designed for visualization)|
-| Real-Time Processing  | Excellent (stream processing capabilities)| Good (with libraries like PySpark)    | Limited (not designed for real-time) | 
+| Data Visualization    | Good (native DataFrame plotting support)  | Excellent (matplotlib, seaborn, etc.) | Limited (not designed for visualization)|
+| Real-Time Processing  | Excellent (structured stream processing)  | Good (with libraries like PySpark)    | Limited (not designed for real-time) | 
 | Machine Learning      | Excellent (MLlib for scalable ML)         | Excellent (scikit-learn, TensorFlow)  | Limited (possible but impractical)   | 
 | Scalability           | Excellent (big data and clusters)         | Good (with frameworks like Dask)      | Good (depends on database scalability)| 
-| Ease of Use           | Moderate (requires big data expertise)    | Moderate (requires programming)       | Good (widely known syntax)           | 
-| Integration           | Good (with big data tools)                | Excellent (most data sources supported)| Excellent (database standard)       | 
+| Ease of Use           | Good (Connect, lightweight Python client) | Moderate (requires programming)       | Good (widely known syntax)           | 
+| Integration           | Excellent (cross-tool, cross-client)      | Excellent (most data sources supported)| Excellent (database standard)       | 
 | Open Source/Free      | **Yes**                                       | **Yes**                                   | **Yes**                                   | 
 
 ## Selected Visualization Tools
@@ -26,14 +26,14 @@ Please refer to the official websites of each tool for the most accurate and up-
 |-----------------------|-----------------------------------------|--------------------------------------|---------------------------------------|-------------------------------------|
 | Data Collection       | Good (connects to various sources)     | Good (integrates with databases/APIs)| Good (simplifies connections)        | Moderate (requires additional setups)|
 | Data Cleaning         | Good (intuitive for beginners)         | Excellent (cleaning and reshaping)  | Moderate (basic cleaning features)   | Moderate (less intuitive)          |
-| Data Transformation   | Excellent (robust for transformations) | Good (drag-and-drop interface)      | Moderate (custom queries supported)  | Moderate (more scripting required) |
+| Data Transformation   | Excellent (enhanced AI features)       | Good (drag-and-drop interface)      | Moderate (custom queries supported)  | Moderate (more scripting required) |
 | Data Analysis         | Excellent (built-in analytics)         | Good (strong visual focus)          | Good (interactive filtering)         | Good (customizable UI for analysis)|
 | Data Visualization    | Excellent (interactive visualizations) | Excellent (designed for visuals)    | Good (clean, simple charts)          | Good (interactive dashboards)     |
-| Real-Time Processing  | Good (real-time dashboards)            | Not applicable                      | Limited (basic real-time capabilities)| Limited (requires custom integrations)|
-| Machine Learning      | Moderate (via integrations)            | Not applicable                      | Not applicable                       | Not applicable                     |
+| Real-Time Processing  | Good (semantics, real-time dashboards) | Not applicable                      | Limited (basic real-time capabilities)| Limited (requires custom integrations)|
+| Machine Learning      | Good (Copilot + improved data prep)    | Not applicable                      | Not applicable                       | Not applicable                     |
 | Scalability           | Good (enterprise-ready)                | Good (scales within environment)    | Moderate (smaller-scale usage)       | Good (scales with server resources)|
 | Ease of Use           | Excellent (user-friendly)              | Excellent (drag-and-drop interface) | Excellent (simple for non-technical users)| Moderate (requires scripting)      |
-| Integration           | Excellent (Microsoft ecosystem)        | Good (integrates with Tableau Suite)| Good (API-based integrations)        | Good (with R and Python)           |
+| Integration           | Excellent (mapping, semantic API)      | Good (integrates with Tableau Suite)| Good (API integrations, metadata)   | Good (with R and Python)           |
 | Open Source/Free      | No (free tier available)               | No (academic trial available)       | **Yes**                             | **Yes** |
 
 ## Additional Proprietary Tools
@@ -66,9 +66,7 @@ We can use it with SQL, Python, or other languages, and the Spark engine handles
 To try Spark locally, students working on Mac and Linux can follow the installation instructions. 
 Windows students can install WSL  (Windows Subsystem for Linux) and the Ubuntu Linux Distribution and follow the instructions.
 
-Versions mattter. Spark 3.5.3 requires JDK (Java Development Kit) version 8, 11, or 17 - it will not work with JDK 21. 
-
-Watch for Spark 4.0 coming soon - there is a [preview release available](https://spark.apache.org/news/spark-4.0.0-preview2.html). It supports JDK 21 and 17 out of the box. 
+Spark 4.0 has been released, requires JDK (Java Development Kit) version 17 or 21, introduces native plotting, enhanced SQL, and improved lightweight Python integration.
 
 ### [Python](https://www.python.org) 
 
@@ -92,6 +90,7 @@ To get experience, students can try [Power BI Services](https://powerbi.microsof
 
 In addition, students on Windows can download [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) (no sharing or publishing capabilities in the free option).
 
+Power BI Release Wave 2 adds AI-driven data prep, semantic model improvements, and Azure Maps integration.
 
 ### [Tableau Data Prep & Tableau](https://www.tableau.com)
 
@@ -110,7 +109,8 @@ for its intuitive design and ability to make data easily accessible and understa
 
 After we install Java to enable Apache Spark, students can try Metabase by installing the jar file. 
 Mac and Linux work well. Windows students can install WSL and Ubuntu. 
-Metabase works with JDK 21, 17, and 11. For now, we need to stay with JDK 17 to work with Spark 3.5.3.
+Metabase works with JDK 17 and 21. 
+Metabase v55–56 adds usability and metadata enhancements.
 
 ### [Shiny](https://shiny.rstudio.com)  
 
