@@ -22,6 +22,10 @@ An open-source versatile programming language renowned for its ease of use and r
 ### R
 A software environment and programming language for statistical computing and graphics, widely used among statisticians and data miners.
 
+### Helical Insight
+
+A **free and open-source business intelligence (BI) and analytics platform** for creating interactive dashboards, data visualizations, reports, and self-service analytics. It supports multiple data sources, embedded analytics, reporting, and AI-assisted analytics, and can be deployed in on-premises or cloud environments.
+
 ## Proprietary Tools
 
 ### SAS
