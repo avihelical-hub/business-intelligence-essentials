@@ -22,19 +22,19 @@ Please refer to the official websites of each tool for the most accurate and up-
 
 ## Selected Visualization Tools
 
-| BI Activities         | Power BI                                | Tableau Prep + Tableau               | Metabase                              | Shiny                            |
-|-----------------------|-----------------------------------------|--------------------------------------|---------------------------------------|-------------------------------------|
-| Data Collection       | Good (connects to various sources)     | Good (integrates with databases/APIs)| Good (simplifies connections)        | Moderate (requires additional setups)|
-| Data Cleaning         | Good (intuitive for beginners)         | Excellent (cleaning and reshaping)  | Moderate (basic cleaning features)   | Moderate (less intuitive)          |
-| Data Transformation   | Excellent (enhanced AI features)       | Good (drag-and-drop interface)      | Moderate (custom queries supported)  | Moderate (more scripting required) |
-| Data Analysis         | Excellent (built-in analytics)         | Good (strong visual focus)          | Good (interactive filtering)         | Good (customizable UI for analysis)|
-| Data Visualization    | Excellent (interactive visualizations) | Excellent (designed for visuals)    | Good (clean, simple charts)          | Good (interactive dashboards)     |
-| Real-Time Processing  | Good (semantics, real-time dashboards) | Not applicable                      | Limited (basic real-time capabilities)| Limited (requires custom integrations)|
-| Machine Learning      | Good (Copilot + improved data prep)    | Not applicable                      | Not applicable                       | Not applicable                     |
-| Scalability           | Good (enterprise-ready)                | Good (scales within environment)    | Moderate (smaller-scale usage)       | Good (scales with server resources)|
-| Ease of Use           | Excellent (user-friendly)              | Excellent (drag-and-drop interface) | Excellent (simple for non-technical users)| Moderate (requires scripting)      |
-| Integration           | Excellent (mapping, semantic API)      | Good (integrates with Tableau Suite)| Good (API integrations, metadata)   | Good (with R and Python)           |
-| Open Source/Free      | No (free tier available)               | No (academic trial available)       | **Yes**                             | **Yes** |
+| BI Activities         | Power BI                                | Tableau Prep + Tableau               | Metabase                              | Shiny                            | Helical Insight                                      |
+|-----------------------|-----------------------------------------|--------------------------------------|---------------------------------------|----------------------------------|------------------------------------------------------|
+| Data Collection       | Good (connects to various sources)     | Good (integrates with databases/APIs)| Good (simplifies connections)        | Moderate (requires additional setups) | Good (supports multiple data sources)             |
+| Data Cleaning         | Good (intuitive for beginners)         | Excellent (cleaning and reshaping)  | Moderate (basic cleaning features)   | Moderate (less intuitive)          | Good (supports data preparation and querying)       |
+| Data Transformation   | Excellent (enhanced AI features)       | Good (drag-and-drop interface)      | Moderate (custom queries supported)  | Moderate (more scripting required) | Good (supports data modeling and transformations)   |
+| Data Analysis         | Excellent (built-in analytics)         | Good (strong visual focus)          | Good (interactive filtering)         | Good (customizable UI for analysis)| Excellent (self-service analytics and reporting)    |
+| Data Visualization    | Excellent (interactive visualizations) | Excellent (designed for visuals)    | Good (clean, simple charts)          | Good (interactive dashboards)     | Excellent (interactive dashboards and visualizations) |
+| Real-Time Processing  | Good (semantics, real-time dashboards) | Not applicable                      | Limited (basic real-time capabilities)| Limited (requires custom integrations) | Good (supports live data and configurable refresh) |
+| Machine Learning      | Good (Copilot + improved data prep)    | Not applicable                      | Not applicable                       | Not applicable                     | Excellent (AI-assisted analytics capabilities)       |
+| Scalability           | Good (enterprise-ready)                | Good (scales within environment)    | Moderate (smaller-scale usage)       | Good (scales with server resources)| Good (supports enterprise deployments)              |
+| Ease of Use           | Excellent (user-friendly)              | Excellent (drag-and-drop interface) | Excellent (simple for non-technical users)| Moderate (requires scripting)  | Good (browser-based self-service interface)         |
+| Integration           | Excellent (mapping, semantic API)      | Good (integrates with Tableau Suite)| Good (API integrations, metadata)   | Good (with R and Python)          | Excellent (APIs, embedding, and multiple integrations) |
+| Open Source/Free      | No (free tier available)               | No (academic trial available)       | **Yes**                             | **Yes**                           | **Yes — Free & Open Source**                         |
 
 ## Additional Proprietary Tools
 
@@ -100,6 +100,18 @@ Both come with a renewable 12-month academic trial license for students and educ
 It is user-friendly and uses a graphical interface to prepare data for analysis and visualization.
 
 To get experience, students can download [Tableau Prep for Students](https://www.tableau.com/academic/students) and [Tableau for Students](https://www.tableau.com/academic/students) for free with academic credentials.
+
+### [Helical Insight](https://www.helicalinsight.com)
+
+Helical Insight is a free open-source business intelligence and analytics platform designed for AI-powered analytics, data visualization, reporting, dashboards, and self-service analytics. It provides capabilities for creating interactive dashboards, paginated pixel-perfect reports, data analysis, and embedded analytics.
+
+Helical Insight supports a range of data sources and provides a browser-based interface for creating and consuming reports and dashboards. It is designed to support both technical and business users, with features for self-service analytics, interactive visualization, reporting, role-based access, and embedding analytics into applications.
+
+The platform can be deployed in different environments, including on-premises and cloud environments, and supports technologies such as Docker and Kubernetes. It also provides APIs and embedding capabilities for organizations that want to integrate analytics into their own applications.
+
+Helical Insight is available as an open-source project, making it suitable for organizations, developers, and users looking for an open-source BI and analytics platform.
+
+The source code is available on [GitHub](https://github.com/helicalinsight/helicalinsight).
 
 ### [Metabase](https://www.metabase.com)  
 
